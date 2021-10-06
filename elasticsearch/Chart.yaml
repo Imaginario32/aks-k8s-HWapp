@@ -3,10 +3,7 @@ name: elasticsearch
 home: https://www.elastic.co/products/elasticsearch
 version: 7.15.0
 appVersion: 7.15.0
-# The elasticsearch chart is deprecated and no longer maintained. For details deprecation, see the PROCESSES.md file.
-deprecated: true
-description: DEPRECATED Flexible and powerful open source, distributed real-time search and analytics
-  engine.
+description: Flexible and powerful open source, distributed real-time search and analytics engine.
 icon: https://static-www.elastic.co/assets/blteb1c97719574938d/logo-elastic-elasticsearch-lt.svg
 sources:
 - https://www.elastic.co/products/elasticsearch
