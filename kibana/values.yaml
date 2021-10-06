@@ -1,12 +1,12 @@
 image:
   repository: "docker.elastic.co/kibana/kibana-oss"
-  tag: "6.7.0"
+  tag: "latest"
   pullPolicy: "IfNotPresent"
 
 testFramework:
   enabled: "true"
   image: "dduportal/bats"
-  tag: "0.4.0"
+  tag: "latest"
 
 commandline:
   args: []
