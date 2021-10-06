@@ -118,7 +118,7 @@ client:
 ## (dict) If specified, apply these annotations to the client service
 #  serviceAnnotations:
 #    example: client-svc-foo
-  heapSize: "512m"
+  heapSize: "256m"
   # additionalJavaOpts: "-XX:MaxRAM=512m"
   antiAffinity: "soft"
   nodeAffinity: {}
@@ -128,14 +128,14 @@ client:
   initResources: {}
     # limits:
     #   cpu: "25m"
-    #   # memory: "128Mi"
+    memory: "128Mi"
     # requests:
     #   cpu: "25m"
-    #   memory: "128Mi"
+    memory: "128Mi"
   resources:
     limits:
       cpu: "1"
-      # memory: "1024Mi"
+      memory: "512Mi"
     requests:
       cpu: "25m"
       memory: "512Mi"
