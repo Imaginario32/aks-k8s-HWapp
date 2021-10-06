@@ -1,6 +1,6 @@
 image:
   repository: "docker.elastic.co/kibana/kibana-oss"
-  tag: "latest"
+  tag: "7.10.2"
   pullPolicy: "IfNotPresent"
 
 testFramework:
