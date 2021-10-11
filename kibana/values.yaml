@@ -1,5 +1,5 @@
 image:
-  repository: "docker.elastic.co/kibana/"
+  repository: "docker.elastic.co/kibana/kibana"
   pullPolicy: "IfNotPresent"
 
 testFramework:
